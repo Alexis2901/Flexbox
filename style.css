@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-image-container{
+width: 10%;
+background-color: black;
+color: white;
+border-radius: 100%;
+
+}
+header form{
+    width: 35%;
+}
+header form input{
+width: 50%;
+padding: 0.5rem 1rem;
+border: 1px solid beige;
+outline: none;
+transition: 200ms;
+border-radius: 100vw;
+}
+
+headerform button{
+    border: 1px solid  white;
+    background-color:beige;
+    color:black;
+    border-radius: 100vw 100vw 0;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    width: 8rem;
+    align-self: flex-end;
+}
+header form button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(177, 126, 59);
+    transform: scale(1.1);
+
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+}
+
+header ul li{
+    transition: 200ms;
+    font-style: italic;
+}
+
+header ul li:hover{
+    transform: scale(1.2);
+}
+
+.card-info h1{
+    font-size: 35px;
+    font-style: italic;
+}
+
+.card-info p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.cards-container{
+    pad: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: bisque;
+    width: 25rem;
+    padding: 3rem 4rem;
+    border-radius: 40px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.card-info{
+    width: 100%;
+}
+.card-image-container img{
+    width: 100%;
+    }
+.card button{
+    border: 1px solid  white;
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    width: 8rem;
+    align-self: flex-end;
+}
+.card button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(255, 152, 25);
+    transform: scale(1.1);
+
+}
+
